@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Buyer's Form</h1>
+    
+    <form name="buyers_form">
+<fieldset>
+<legend>Personal info</legend>
+        <div>
+        <label for="first_name">First Name</label>
+        <input id="first-name" placeholder="first_name" name="first_name" type="text">
+        </div>
+        <div>
+        <label for="last-name">Last Name</label>
+        <input id="last-name" placeholder="last_name" name="last_name" type="text">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input id="password" placeholder="password" name="password" type="password">
+        </div>
+        <div>
+            <label>please tell some text</label>
+            <textarea rows="1" name="buyer_discrption" id="buyer_discrption"></textarea>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <div>
+                <label for="address_line">Address</label>
+                <input id="address_line" type="text">
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input id="city" type="text">
+            </div>
+            <div>
+                <label for="state">state</label>
+                <input id="state" type="text">
+            </div>
+            <div>
+                <label for="zip">zip</label>
+                <input id="zip" type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Prefrence</legend>
+            <p>contact</p>
+            <div>
+            <input type="radio" id="contact_m_email" name="contaced_method">
+            <label for="contact_m_email">Email</label>
+            <input type="radio" id="contact_m_phone" name="contaced_method">
+            <label for="contact_m_phone">Phone</label>
+            <input type="radio" id="contact_m_none" name="contaced_method">
+            <label for="contact_m_email">None</label>
+            </div>
+            <div>
+            <label for="subscribe"> Do you want to Subscribe?</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+            <div>
+            <label for="color">What color do you like?</label>
+            <input type="color" id="color" name="color">
+            </div>
+            <div>
+            <label for="satisfied"> are you satisfied with our class?</label>
+            <input type="satisfied" id="satisfied" name="satisfied">
+            </div>
+            <div>
+            <label for="time_sleep">what time is now?</label>
+            <input type="time" id="time_sleep" name="time_sleep">
+            </div>
+            <div>
+            <label for="date">put in you'r date</label>
+            <input type="date" id="date" name="date">
+            </div>
+            <div>
+            <label for="age">how old are you now?</label>
+            <input type="number" id="age" name="age">
+            </div>
+
+        </fieldset>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
